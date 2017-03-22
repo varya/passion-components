@@ -10,12 +10,12 @@ default_lang: en
 default_body_class: shower list
 
 author:
-    name: Yours Truly
+    name: Varya Stepanova
     # url:  http://example.com/
     company:
         name: SC5 Online
         url:  http://sc5.io/
 
-fork_url: https://github.com/SC5/jekyller
+#fork_url: https://github.com/SC5/jekyller
 progress: true
-line_numbers: true
+line_numbers: false

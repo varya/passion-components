@@ -14,10 +14,40 @@ style: |
     }
 ---
 
-# SC5 brand presentation with jekyller {#cover}
+# Component-focused approach at Passion project {#cover}
 
-Maija Meikäläinen, <span class="position">Chief Style Officer</span>
+Varya Stepanova, <span class="position">UI Passion Team</span>
 {:.author}
+
+
+## Old school UI development
+{: .slide--shout .slide--azure }
+
+
+## Current status of Passion UI
+{: .slide--shout .slide--azure }
+
+
+## Components on the web
+{: .slide--shout .slide--azure }
+
+// About the approach in general
+
+
+## SC5 style guide generator
+{: .slide--shout .slide--azure }
+
+
+## Passion documented components
+{: .slide--shout .slide--azure }
+
+
+## Visual tests
+{: .slide--shout .slide--red }
+
+
+## Visual future plans
+{: .slide--shout .slide--azure }
 
 
 ## Where am i?
