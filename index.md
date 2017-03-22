@@ -23,13 +23,19 @@ Varya Stepanova, <span class="position">UI Passion Team</span>
 ## Old school UI development
 {: .slide--shout .slide--azure }
 
+![](themes/sc5/images/icons/toolbox.svg){: .svg style="width: 200px; height: 200px;" }
+
 
 ## Current status of Passion UI
 {: .slide--shout .slide--azure }
 
+![](themes/sc5/images/icons/monkey--happy.svg){: .svg style="width: 200px; height: 200px;" }
+
 
 ## Components on the web
 {: .slide--shout .slide--azure }
+
+![](themes/sc5/images/icons/puzzle--turned.svg){: .svg style="width: 200px; height: 200px;" }
 
 // About the approach in general
 
@@ -37,17 +43,25 @@ Varya Stepanova, <span class="position">UI Passion Team</span>
 ## SC5 style guide generator
 {: .slide--shout .slide--azure }
 
+![](themes/sc5/images/icons/robot.svg){: .svg style="width: 200px; height: 200px;" }
+
 
 ## Passion documented components
 {: .slide--shout .slide--azure }
+
+![](themes/sc5/images/icons/pile.svg){: .svg style="width: 200px; height: 200px;" }
 
 
 ## Visual tests
 {: .slide--shout .slide--red }
 
+![](themes/sc5/images/icons/brilliant.svg){: .svg style="width: 200px; height: 200px;" }
 
-## Visual future plans
+
+## Future plans
 {: .slide--shout .slide--azure }
+
+![](themes/sc5/images/icons/excavator.svg){: .svg style="width: 200px; height: 200px;" }
 
 
 ## Where am i?
