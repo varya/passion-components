@@ -12,6 +12,9 @@ style: |
       color: yellow;
       margin-top: 70px;
     }
+    .code--small {
+      font-size: 16px;
+    }
 ---
 
 # Component-focused approach at Passion project {#cover}
@@ -31,6 +34,13 @@ Varya Stepanova, <span class="position">UI Passion Team</span>
 
 ![](themes/sc5/images/icons/monkey--happy.svg){: .svg style="width: 200px; height: 200px;" }
 
+## Front-end at Passion
+
+* Cross-company components
+* Duplicated components
+* Own components
+* No-componentized code
+
 
 ## Components on the web
 {: .slide--shout .slide--azure }
@@ -46,10 +56,44 @@ Varya Stepanova, <span class="position">UI Passion Team</span>
 ![](themes/sc5/images/icons/robot.svg){: .svg style="width: 200px; height: 200px;" }
 
 
+## Documenting the components
+
+```
+// Button
+//
+// markup:
+// <button class="dna-button" />
+//
+// Styleguide 5.1
+
+.dna-button {
+  background-color: $brand-pink;
+  font: ...
+}
+```
+{: .code--small }
+
+
+## The magic result
+
+* *Auto-generated* documentational website
+* Reference for designers, *based on actual code*
+* Development playgroud
+
+
 ## Passion documented components
 {: .slide--shout .slide--azure }
 
 ![](themes/sc5/images/icons/pile.svg){: .svg style="width: 200px; height: 200px;" }
+
+
+## Title
+
+```
+$ gulp watch
+```
+
+Alive and refreshing: [http://localhost:3000](http://localhost:3000)
 
 
 ## Visual tests
@@ -58,10 +102,22 @@ Varya Stepanova, <span class="position">UI Passion Team</span>
 ![](themes/sc5/images/icons/brilliant.svg){: .svg style="width: 200px; height: 200px;" }
 
 
+## Always 100% test coverage!
+{: .slide--shout .slide--red }
+
+
 ## Future plans
 {: .slide--shout .slide--azure }
 
 ![](themes/sc5/images/icons/excavator.svg){: .svg style="width: 200px; height: 200px;" }
+
+
+## Future plans
+
+* Use cross-company components
+* Component-focused approach when developing
+* Maximum code-reusage
+* Automation of visual tests
 
 
 ## Where am i?
