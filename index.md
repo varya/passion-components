@@ -288,7 +288,7 @@ ol[start="10"] {
 
 ![](pictures/console-report.png)
 
-### Human's version: [gemini-report/index.html](gemini-report/index.html)
+Human's version: [gemini-report/index.html](gemini-report/index.html)
 
 
 ## Always 100% test coverage!
