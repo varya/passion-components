@@ -23,16 +23,11 @@ Varya Stepanova, <span class="position">Passion UI Team</span>
 {:.author}
 
 
-## Old school UI development
-{: .slide--shout .slide--azure }
-
-![](themes/sc5/images/icons/toolbox.svg){: .svg style="width: 200px; height: 200px;" }
-
-
 ## Current status of Passion UI
 {: .slide--shout .slide--azure }
 
 ![](themes/sc5/images/icons/monkey--happy.svg){: .svg style="width: 200px; height: 200px;" }
+
 
 ## Front-end at Passion
 
@@ -55,6 +50,92 @@ Varya Stepanova, <span class="position">Passion UI Team</span>
 // Copy-paste across the project
 // Non-consistent UI
 // No big picture what is implemented
+
+
+## Old school UI development
+{: .slide--shout .slide--azure }
+
+![](themes/sc5/images/icons/toolbox.svg){: .svg style="width: 200px; height: 200px;" }
+
+
+## When no components
+{: .cycle }
+
+<div class="states">
+<div class="state state_left" markdown="1">
+mockup
+
+</div>
+<div class="state state_middle" markdown="1">
+markup
+
+</div>
+<div class="state state_right">
+product
+</div>
+</div>
+
+<!--How it used to be-->
+
+<style>
+.cycle .states {
+  display: flex;
+  margin-top: 4em;
+}
+
+.cycle .state {
+  position: relative;
+  width: 33%;
+  height: 200px;
+  display: block;
+  text-align: center;
+  line-height: 200px;
+}
+
+.cycle .state p {
+  line-height: 200px;
+}
+
+.cycle .states .state_left {
+  order: 1;
+}
+
+.cycle .states .state_middle {
+  order: 2;
+}
+
+.cycle .states .state_right {
+  order: 3;
+}
+
+.cycle .state::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -100px;
+  content: "";
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: #999 5px solid;
+  display: inline-block;
+}
+.cycle .state::after {
+  content: "\2192";
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 0.125em;
+  color: #31727d;
+  line-height: 1em;
+  position: absolute;
+  right: -32px;
+  top: calc(50% - 25px);
+  font-size: 2em;
+}
+.cycle .state_right::after {
+  display: none;
+}
+</style>
 
 
 ## Components on the web
